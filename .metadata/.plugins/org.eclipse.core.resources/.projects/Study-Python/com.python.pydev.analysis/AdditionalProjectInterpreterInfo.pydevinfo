@@ -1,0 +1,62 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\Basanwei\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Study-Python\com.python.pydev.analysis\v2_indexcache
+Testingbuiltinpackage|1566734193217805000|C:\Users\Basanwei\eclipse-workspace\Study-Python\Testingbuiltinpackage.py
+2_2_NumericTypes|1567001108476813000|C:\Users\Basanwei\eclipse-workspace\Study-Python\2_2_NumericTypes.py
+3_2tuple|1567177912838817000|C:\Users\Basanwei\eclipse-workspace\Study-Python\3_2tuple.py
+3_3dictionary|1567304515018756000|C:\Users\Basanwei\eclipse-workspace\Study-Python\3_3dictionary.py
+5_1_part1|1569075821852850000|C:\Users\Basanwei\eclipse-workspace\Study-Python\5_1_part1.py
+3_4part2|1567429599605114000|C:\Users\Basanwei\eclipse-workspace\Study-Python\3_4part2.py
+2_2Part2|1566800399994425000|C:\Users\Basanwei\eclipse-workspace\Study-Python\2_2Part2.py
+4_1_part1|1567948704216100000|C:\Users\Basanwei\eclipse-workspace\Study-Python\4_1_part1.py
+3_1_list|1567177725759091000|C:\Users\Basanwei\eclipse-workspace\Study-Python\3_1_list.py
+3_4_function|1567429236600441000|C:\Users\Basanwei\eclipse-workspace\Study-Python\3_4_function.py
+3_2part2|1567178011543520000|C:\Users\Basanwei\eclipse-workspace\Study-Python\3_2part2.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+3=C:\Users\Basanwei\eclipse-workspace\Study-Python\2_2Part2.py
+16=Testingbuiltinpackage
+2=2_2_NumericTypes
+13=C:\Users\Basanwei\eclipse-workspace\Study-Python\3_4_function.py
+12=3_3dictionary
+18=5_1_part1
+1=C:\Users\Basanwei\eclipse-workspace\Study-Python\2_2_NumericTypes.py
+4=2_2Part2
+15=C:\Users\Basanwei\eclipse-workspace\Study-Python\Testingbuiltinpackage.py
+6=3_1_list
+14=3_4_function
+7=C:\Users\Basanwei\eclipse-workspace\Study-Python\3_2tuple.py
+8=3_2tuple
+17=C:\Users\Basanwei\eclipse-workspace\Study-Python\5_1_part1.py
+9=C:\Users\Basanwei\eclipse-workspace\Study-Python\4_1_part1.py
+5=C:\Users\Basanwei\eclipse-workspace\Study-Python\3_1_list.py
+10=4_1_part1
+11=C:\Users\Basanwei\eclipse-workspace\Study-Python\3_3dictionary.py
+-- END DICTIONARY
+-- START TREE 1
+20
+a|1|a!1^8#1*19@
+age|1|age!3^9#1*35@
+b|1|b!1^9#1*19@
+c|1|c!1^10#1*19@
+d|1|d!1^11#1*19@
+e|1|e!1^13#1*19@
+f|1|f!1^14#1*19@
+fou|2|fourth_mixed!5^24#1*51@fourth_mixed!7^23#1*67@
+gue|1|guess!9^7#1*83@
+mix|3|mixed_tuple!7^16#1*67@mixed_list!5^17#1*51@mixed_dict!11^8#1*99@
+nam|1|name!3^8#1*35@
+num|3|number_list!5^12#1*51@num!9^6#1*83@number_tuple!7^11#1*67@
+pho|1|phone_book!11^6#1*99@
+pri|1|print_time_two!13^8#5*114@
+r|1|r!15^10#1*131@
+rep|2|repeated_strings!13^18#1*115@repeat_str!13^14#5*114@
+say|1|say_hi!13^2#5*114@
+sec|2|second_num!5^22#1*51@second_num!7^21#1*67@
+str|4|string2!17^7#1*147@string_list!5^15#1*51@string1!17^6#1*147@string_tuple!7^14#1*67@
+thi|2|third_string!7^22#1*67@third_string!5^23#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2019��10��11��
+
+@author: Basanwei
+'''
+from _collections_abc import Iterator
+isinstance([1,2,3],Iterator)
+
+
+from ex5 import seek_prinum
+# seek_prinum(50)
+
+f=open('C:/Users/Basanwei/eclipse-workspace/try.txt', 'w+')
+str=''' search for all the primary numbers within n
+    
+    
+    INPUT:
+    n: the upper limit of the number, within which all the primary
+    number is sought.
+    OUTPUT:
+    a list of all the primary number within n'''
+f.write(str)
+f.close()

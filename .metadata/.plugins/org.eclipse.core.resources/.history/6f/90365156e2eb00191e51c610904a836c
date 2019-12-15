@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2019��10��11��
+
+@author: Basanwei
+'''
+import os
+from _collections_abc import Iterator
+isinstance([1,2,3],Iterator)

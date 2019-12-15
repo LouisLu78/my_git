@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+#Created on 2019年9月13日
+
+#@author: Basanwei
+
+string1=input("please input a string here:")
+string2=input("you may input another string:")
+
+print("string1 is: "+string1+" and string2 is: "+ string2)
+print("string1 is {} and string2 is {}". format(string1,string2))
+print("string1 is: ",string1," and string2 is: ", string2)
+print("string1 is {} and string2 is {}". format(string1,string2))

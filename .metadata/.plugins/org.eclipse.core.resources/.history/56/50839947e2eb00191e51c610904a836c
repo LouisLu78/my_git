@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2019��10��11��
+
+@author: Basanwei
+'''
+import os
+isinstance([1,2,3],Iterable)

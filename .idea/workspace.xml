@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df11fc6e-bde5-4a42-a8aa-dc5bdf7d15e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Exercise/Practice/gopherclient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/ex12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/ex12.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Exercise" />
+  </component>
+  <component name="ProjectId" id="1Sk7V9Io9y9haukZOFYPWi1AsV7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AppData/Local/Programs/Python/Python37/Lib/site-packages/setuptools-40.8.0-py3.7.egg" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Basanwei\eclipse-workspace\Exercise\Practice" />
+      <recent name="D:\Program files\MyPy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.gopherclient">
+    <configuration name="Testingbuiltinpackage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyPy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Program files/MyPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/Program files/MyPy/Testingbuiltinpackage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gopherclient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="eclipse-workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise/Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise/Practice/gopherclient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="guigame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="eclipse-workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise/Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise/Practice/guigame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_treatment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="eclipse-workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise/Practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise/Practice/image_treatment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="question01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="eclipse-workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise/question01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gopherclient" />
+        <item itemvalue="Python.question01" />
+        <item itemvalue="Python.Testingbuiltinpackage" />
+        <item itemvalue="Python.guigame" />
+        <item itemvalue="Python.image_treatment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df11fc6e-bde5-4a42-a8aa-dc5bdf7d15e5" name="Default Changelist" comment="" />
+      <created>1572095760808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572095760808</updated>
+    </task>
+    <task id="LOCAL-00001" summary="I like python">
+      <created>1572099812691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572099812691</updated>
+    </task>
+    <task id="LOCAL-00002" summary="I like python. I am a novice in programming. &quot;Hello World!&quot;">
+      <created>1572243872278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572243872278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I like python. I am a well-trained chemist with 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;">
+      <created>1572330456521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572330456521</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;">
+      <created>1572330672692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572330672692</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;">
+      <created>1572361460594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572361460594</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;">
+      <created>1572523854455</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572523854456</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;">
+      <created>1572532715393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572532715393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;">
+      <created>1572601118371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572601118371</updated>
+    </task>
+    <task id="LOCAL-00009" summary="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;">
+      <created>1572621725086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572621725086</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="I like python" />
+    <MESSAGE value="I like python. I am a novice in programming. &quot;Hello World!&quot;" />
+    <MESSAGE value="I like python. I am a well-trained chemist with 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;" />
+    <MESSAGE value="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="I like python. I am a well-trained chemist with more than 20 years of expertise, but I am a novice in programming. &#10;I hope in the rest of my life, I can grow up as a qualified programmer.&#10;&quot;Hello World!&quot;" />
+  </component>
+</project>

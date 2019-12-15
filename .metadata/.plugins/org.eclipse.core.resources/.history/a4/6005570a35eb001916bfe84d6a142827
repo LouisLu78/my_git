@@ -1,0 +1,23 @@
+# -*- coding:utf-8 -*-
+
+'''
+Created on 2019��10��10��
+
+@author: Basanwei
+'''
+# names1=["tom","jimmy","william","john","mike"]
+# Newname=iter(names1)
+# print(next(Newname))
+
+# names=["William","Mary","Tommy","Jimmy"]
+# heights=[185,173,164,175]
+# # alo=list(zip(names,heights))
+# # print(alo)
+# alo=zip(names,heights)
+# print(list(alo))
+# blo=zip(names,heights)
+# print(dict(blo))
+
+number_list=[number**2 for number in range(1,7) if number%2==0]
+
+print(number_list)

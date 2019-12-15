@@ -1,0 +1,14 @@
+# -*- coding:utf-8 -*-
+'''
+Created on 2019年10月2日
+
+@author: Basanwei
+'''
+# a = ['Mary', 'had', 'a', 'little', 'lamb']
+# for i in range(len(a)):
+#      print(i, a[i])
+a = ['Mary', 'had', 'a', 'little', 'lamb']
+for i,k in enumerate(a):
+    print(i,k)
+print(list(range(a)))
+print(list(a))   

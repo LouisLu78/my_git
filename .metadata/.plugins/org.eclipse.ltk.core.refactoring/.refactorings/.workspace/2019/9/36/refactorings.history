@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Teaching-Python&apos; to &apos;Study-Python&apos;" description="Rename resource &apos;Teaching-Python&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Teaching-Python" name="Study-Python" stamp="1567304432923" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;installpython&apos; to &apos;install&apos;" description="Rename resource &apos;installpython&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/installpython" name="install" stamp="1567304452271" updateReferences="true"/>
+</session>

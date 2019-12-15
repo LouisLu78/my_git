@@ -1,0 +1,66 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\Basanwei\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Exercise\com.python.pydev.analysis\v2_indexcache
+ex4|1570760087305659000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex4.py
+ex3|1570777420088150000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex3.py
+ex6|1570973449133682000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex6.py
+ex5|1570877342869209000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex5.py
+ex08|1571120174669032000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex08.py
+ex7|1571106875832053000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex7.py
+ex9|1571147655987034000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex9.py
+ex2|1570759905397877000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex2.py
+ex1|1570768787400537000|C:\Users\Basanwei\eclipse-workspace\Exercise\ex1.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+7=C:\Users\Basanwei\eclipse-workspace\Exercise\ex7.py
+14=ex4
+2=ex3
+11=C:\Users\Basanwei\eclipse-workspace\Exercise\ex6.py
+12=ex6
+5=C:\Users\Basanwei\eclipse-workspace\Exercise\ex5.py
+6=ex5
+8=ex7
+9=C:\Users\Basanwei\eclipse-workspace\Exercise\ex08.py
+4=ex9
+10=ex08
+17=C:\Users\Basanwei\eclipse-workspace\Exercise\ex2.py
+15=C:\Users\Basanwei\eclipse-workspace\Exercise\ex1.py
+1=C:\Users\Basanwei\eclipse-workspace\Exercise\ex3.py
+13=C:\Users\Basanwei\eclipse-workspace\Exercise\ex4.py
+3=C:\Users\Basanwei\eclipse-workspace\Exercise\ex9.py
+18=ex2
+16=ex1
+-- END DICTIONARY
+-- START TREE 1
+26
+a|2|a!1^10#1*19@a!3^3#1*35@
+alo|1|alo!5^15#1*51@
+b|1|b!3^4#1*35@
+bin|1|bins!7^46#1*67@
+c1|1|c1!3^6#1*35@
+c2|1|c2!3^7#1*35@
+c3|1|c3!3^8#1*35@
+cit|1|City_C_Age!7^45#1*67@
+dat|1|data1!9^17#1*83@
+h|1|h!3^21#1*35@
+hei|1|heights!5^14#1*51@
+hse|3|hseg2!3^29#1*35@hseg3!3^36#1*35@hseg1!3^26#1*35@
+lis|1|list1!11^76#1*99@
+mat|1|matrix!3^16#1*35@
+mon|1|Month!7^30#1*67@
+nam|3|names!5^13#1*51@names1!13^18#1*115@names!13^19#1*115@
+num|3|number0!9^44#1*83@number1!9^57#1*83@number!9^55#1*83@
+see|2|seek_prinum!5^105#5*50@seek_prinum!11^32#5*98@
+seg|1|segment!11^61#5*98@
+sen|1|sentence!15^26#1*131@
+vec|1|vector!3^11#1*35@
+wor|1|words!17^7#1*147@
+x|2|x!7^54#1*67@x!3^39#1*35@
+x1|1|x1!7^55#1*67@
+y|2|y!3^40#1*35@y!7^56#1*67@
+y1|1|y1!7^57#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

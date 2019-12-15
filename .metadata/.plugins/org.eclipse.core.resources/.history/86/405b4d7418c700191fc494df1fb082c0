@@ -1,0 +1,8 @@
+'''
+Created on 2019Äê8ÔÂ25ÈÕ
+
+@author: Basanwei
+'''
+import os
+
+print(os.getcwd())

@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 2019��10��11��
+
+@author: Basanwei
+'''
+from _collections_abc import Iterator
+isinstance([1,2,3],Iterator)
+
+
+from ex5 import seek_prinum
+seek_prinum(50)
