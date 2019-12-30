@@ -39,7 +39,7 @@ def main():
     for tag in tags:
         urls.append(tag['href'])
 
-    for i in range(0,len(urls),20):
+    for i in range(0,100,20):
         downthread=threading.Thread(target=downfile, args=(i, i+20))
         downthreads.append(downthread)
         downthread.start()
