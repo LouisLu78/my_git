@@ -7,8 +7,6 @@ import bs4, requests
 import re, os, shutil
 import pdfkit, threading
 
-lock = threading.Lock()
-
 def url_to_pdf(url, pdf_file):
     path_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
     config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
@@ -16,17 +14,14 @@ def url_to_pdf(url, pdf_file):
     print('done')
 
 def downfile(start, end):
-    lock.acquire(blocking=True)
     for i in range(start, end):
         pdffile = os.path.join(pdffolder, '0%d_.pdf' %i)
-        url_to_pdf(urls[i],'temp.pdf')
-        shutil.copy("temp.pdf", pdffile)
+        url_to_pdf(urls[i],pdffile)
+
         print('The No.%d file is downloaded.' %i)
-        os.unlink('temp.pdf')
-    lock.release()
+
 
 def main():
-
     global pdffolder, urls
     downthreads, urls= [], []
 
@@ -40,7 +35,6 @@ def main():
     pdffolder = "C:\\Users\\Basanwei\\Downloads\\pdf"
     f=open('p100.html','r+', encoding='UTF-8')
     soup=bs4.BeautifulSoup(f.read(),'html.parser')
-
     tags=soup.find_all(href=regex)
     for tag in tags:
         urls.append(tag['href'])
@@ -49,6 +43,7 @@ def main():
         downthread=threading.Thread(target=downfile, args=(i, i+20))
         downthreads.append(downthread)
         downthread.start()
+
     for t in downthreads:
         t.join()
     print('The download task finished.')
