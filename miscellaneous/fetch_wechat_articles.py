@@ -4,7 +4,7 @@
 # If not explicitly pointed out, all the codes are written by myself.
 
 import bs4, requests
-import re, os, shutil
+import re, os
 import pdfkit, threading
 
 def url_to_pdf(url, pdf_file):
@@ -15,14 +15,14 @@ def url_to_pdf(url, pdf_file):
 
 def downfile(start, end):
     for i in range(start, end):
+        pdffolder = "C:\\Users\\Basanwei\\Downloads\\pdf"
         pdffile = os.path.join(pdffolder, '0%d_.pdf' %i)
         url_to_pdf(urls[i],pdffile)
 
         print('The No.%d file is downloaded.' %i)
 
-
 def main():
-    global pdffolder, urls
+    global urls
     downthreads, urls= [], []
 
     res=requests.get('https://mp.weixin.qq.com/s/HMT2fwf1gE8SSNZKd1uf6A')
@@ -32,8 +32,7 @@ def main():
             f.write(chunk)
 
     regex=re.compile(r'weixin')
-    pdffolder = "C:\\Users\\Basanwei\\Downloads\\pdf"
-    f=open('p100.html','r+', encoding='UTF-8')
+    f=open('p100.html','r', encoding='UTF-8')
     soup=bs4.BeautifulSoup(f.read(),'html.parser')
     tags=soup.find_all(href=regex)
     for tag in tags:
