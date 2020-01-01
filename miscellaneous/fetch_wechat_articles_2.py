@@ -27,18 +27,19 @@ def main(original_url):
     global urls
     downthreads,urls= [],[]
 
-    res=requests.get(original_url)
-    res.raise_for_status()
-    with open('article104.html', 'wb') as f:
-        for chunk in res.iter_content(100000):
-            f.write(chunk)
+    # res=requests.get(original_url)
+    # res.raise_for_status()
+    # with open('article104.html', 'wb') as f:
+    #     for chunk in res.iter_content(100000):
+    #         f.write(chunk)
 
     f=open('article104.html','r', encoding='UTF-8')
     soup=bs4.BeautifulSoup(f.read(),'html.parser')
-
+    regex = re.compile(r'\W')
     tags=soup.find_all(class_="article_access")
     for tag in tags:
-        urls.append((tag['href'],tag.text))
+        text=regex.sub('_', tag.text)
+        urls.append((tag['href'],text))
 
     for i in range(0,len(urls),20):
         downthread=threading.Thread(target=downfile, args=(i, i+20))
