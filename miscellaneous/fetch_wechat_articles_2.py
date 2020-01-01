@@ -27,11 +27,11 @@ def main(original_url):
     global urls
     downthreads,urls= [],[]
 
-    # res=requests.get(original_url)
-    # res.raise_for_status()
-    # with open('article104.html', 'wb') as f:
-    #     for chunk in res.iter_content(100000):
-    #         f.write(chunk)
+    res=requests.get(original_url)
+    res.raise_for_status()
+    with open('article104.html', 'wb') as f:
+        for chunk in res.iter_content(100000):
+            f.write(chunk)
 
     f=open('article104.html','r', encoding='UTF-8')
     soup=bs4.BeautifulSoup(f.read(),'html.parser')
