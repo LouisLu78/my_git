@@ -23,9 +23,9 @@ def main():
     flag=-1
     sum = rollDice()
     print('sum is %d.' % sum)
-    if sum == 7 or sum == 11:
+    if sum in [7,11]:
         flag=1
-    elif sum == 2 or sum == 3 or sum == 12:
+    elif sum in [2,3,12]:
         flag=0
     else:
         while (flag==-1):
