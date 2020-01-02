@@ -40,9 +40,6 @@ def main(original_url):
         text = regex.sub(' ', tag.text)
         urls.append((tag['href'], text))
 
-    # for url in urls:
-    #     print(url[1])
-
     for i in range(0,100,20):
         downthread=threading.Thread(target=downfile, args=(i, i+20))
         downthreads.append(downthread)
@@ -54,5 +51,5 @@ def main(original_url):
 
 if __name__=="__main__":
 
-    url = 'https://mp.weixin.qq.com/s/D6w2bmdH5SyAYioIDIHEvg'
+    url = ''
     main(url)
