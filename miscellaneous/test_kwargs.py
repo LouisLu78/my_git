@@ -12,7 +12,7 @@ import re
 #
 # fun_var_args_call(1, **kwargs)
 
-ss='shutil.copy(:)的效果'
-regex=re.compile(r'\W')
+ss='shutil.copy(:)的效果“dot-com”部分（技术上称为“顶级域'
+regex=re.compile(r'[^a-zA-Z0-9()\.:_\u4e00-\u9fa5]')
 text=regex.sub('_', ss)
 print(text)

@@ -16,27 +16,29 @@ def url_to_pdf(url, pdf_file):
 def downfile(start, end):
     for i in range(start, end):
         pdffolder = "C:\\Users\\Basanwei\\Downloads\\pdf"
-        pdffile = os.path.join(pdffolder, '0%d_.pdf' %i)
-        url_to_pdf(urls[i],pdffile)
+        pdffile = os.path.join(pdffolder, "%s.pdf" % urls[i][1])
+        url_to_pdf(urls[i][0], pdffile)
 
         print('The No.%d file is downloaded.' %i)
 
-def main():
+def main(original_url):
     global urls
     downthreads, urls= [], []
 
-    res=requests.get('https://mp.weixin.qq.com/s/HMT2fwf1gE8SSNZKd1uf6A')
+    res=requests.get(original_url)
     res.raise_for_status()
     with open('p100.html', 'wb') as f:
         for chunk in res.iter_content(100000):
             f.write(chunk)
 
-    regex=re.compile(r'weixin')
+    regex=re.compile(r'[^a-zA-Z0-9(). :_\u4e00-\u9fa5]')
     f=open('p100.html','r', encoding='UTF-8')
     soup=bs4.BeautifulSoup(f.read(),'html.parser')
-    tags=soup.find_all(href=regex)
+
+    tags=soup.find_all(attrs={'data-linktype':'2'})
     for tag in tags:
-        urls.append(tag['href'])
+        text = regex.sub('_', tag.text)
+        urls.append((tag['href'], text))
 
     for i in range(0,100,20):
         downthread=threading.Thread(target=downfile, args=(i, i+20))
@@ -48,4 +50,5 @@ def main():
     print('The download task finished.')
 
 if __name__=="__main__":
-    main()
+    url = 'https://mp.weixin.qq.com/s/D6w2bmdH5SyAYioIDIHEvg'
+    main(url)
