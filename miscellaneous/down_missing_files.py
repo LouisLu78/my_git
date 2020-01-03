@@ -18,7 +18,6 @@ original_url=""
 bookdir=r"C:\Users\Basanwei\Downloads\pdf\pycb"
 pdffolder = "C:\\Users\\Basanwei\\Downloads\\pdf"
 
-
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:70.0) Gecko/20100101 Firefox/70.0'}
 res=requests.get(original_url, headers=headers)
 res.raise_for_status()
