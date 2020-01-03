@@ -4,7 +4,7 @@
 # If not explicitly pointed out, all the codes are written by myself.
 
 import bs4, requests
-import re, os
+import re, os, time
 import pdfkit, threading
 
 def url_to_pdf(url, pdf_file):
@@ -50,6 +50,8 @@ def main(original_url):
     print('The download task finished.')
 
 if __name__=="__main__":
-
+    start=time.time()
     url = ''
     main(url)
+    end=time.time()
+    print('The program costs %.2f seconds.'%(end-start) )

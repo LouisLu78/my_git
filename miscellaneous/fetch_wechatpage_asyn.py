@@ -4,7 +4,7 @@
 # If not explicitly pointed out, all the codes are written by myself.
 
 import bs4, requests
-import re, os
+import re, os, time
 import pdfkit, asyncio
 
 async def url_to_pdf(url, pdf_file):
@@ -37,8 +37,11 @@ async def main():
     await asyncio.gather(*tasks)
 
 if __name__ == '__main__':
+    start = time.time()
     loop = asyncio.get_event_loop()
     try:
         loop.run_until_complete(main())
     finally:
         loop.close()
+    end = time.time()
+    print('The program costs %.2f seconds.' % (end - start))
