@@ -21,17 +21,17 @@ def rollDice():
 
 def main():
     flag=-1
-    sum = rollDice()
-    print('sum is %d.' % sum)
-    if sum in [7,11]:
+    dice = rollDice()
+    print('The initial point is %d.' % dice)
+    if dice in [7, 11]:
         flag=1
-    elif sum in [2,3,12]:
+    elif dice in [2, 3, 12]:
         flag=0
     else:
         while (flag==-1):
             rand_result = rollDice()
             print('rand_result is %d.'%rand_result)
-            if rand_result==sum:
+            if rand_result==dice:
                 flag=1
             elif rand_result==7:
                 flag=0
