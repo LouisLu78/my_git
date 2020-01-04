@@ -35,9 +35,9 @@ def main():
                 flag=1
             elif rand_result==7:
                 flag=0
-    if flag==0:
+    if not flag:
         print('You lose.')
-    if flag==1:
+    if flag:
         print('You win.')
 
 if __name__=='__main__':
