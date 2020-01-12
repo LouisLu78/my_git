@@ -39,6 +39,7 @@ def main(original_url):
     for tag in tags:
         text = regex.sub(' ', tag.text)
         urls.append((tag['href'], text))
+    print(urls)
 
     for i in range(0,100,20):
         downthread=threading.Thread(target=downfile, args=(i, i+20))
