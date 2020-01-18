@@ -6,31 +6,33 @@
 import time
 
 def phoneWords(number):
+
     s_number = str(number)
     L = len(s_number)
     num=['', '', 'ABC', 'DEF', 'GHI', 'JKL',
          'MNO', 'PRS', 'TUV', 'WXY']
     words = set()
-    word = ''
+
     if L == 1:
         n = eval(s_number)
         if n != 0 and n != 1:
-            for c in num[n]:
-                word = c
+            for ch in num[n]:
+                word = ch
                 words.add(word)
-        return words
+
     else:
         s_number_temp = s_number[:(L-1)]
-        words_temp = list(phoneWords(s_number_temp))
+        words_temp = phoneWords(s_number_temp)
         n = eval(s_number[-1])
         if n != 0 and n != 1:
             for w in words_temp:
-                for c in num[n]:
-                    word = w + c
+                for ch in num[n]:
+                    word = w + ch
                     words.add(word)
-        return words
+    return words
 
 def main():
+
     number=2535796
     phoneWord = list(phoneWords(number))
     chunk=[list(phoneWord[i: i+20]) for i in range (0,len(phoneWord),20)]
@@ -39,6 +41,7 @@ def main():
     print("It contains totally %d words."%len(phoneWord))
 
 if __name__ == '__main__':
+
     start = time.time()
     main()
     end = time.time()
