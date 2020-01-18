@@ -5,10 +5,10 @@
 
 import random, time
 
-def phoneNumber(number):
+def phoneWords(number):
     num=['', '', 'ABC', 'DEF', 'GHI', 'JKL',
          'MNO', 'PRS', 'TUV', 'WXY']
-    words=[]
+    words = set()
     word = ''
     L = 0
     while L < 3**len(str(number)):
@@ -17,19 +17,17 @@ def phoneNumber(number):
             if c != '0' and c != '1':
                 n = eval(c)
                 word += random.choice(list(num[n]))
-        if word not in words:
-            words.append(word)
-            L = len(words)
+
+        words.add(word)
+        L = len(words)
         word = ''
 
     return words
 
 def main():
     number=2534746
-    phoneWord = list(phoneNumber(number))
-    chunk=[]
-    for i in range (0,len(phoneWord),20):
-        chunk.append(list(phoneWord[i: i+20]))
+    phoneWord = list(phoneWords(number))
+    chunk=[list(phoneWord[i: i+20]) for i in range (0,len(phoneWord),20)]
     for shortlist in chunk:
         print(shortlist)
 
