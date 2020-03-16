@@ -33,7 +33,7 @@ def phoneWords(number):
 
 def main():
 
-    number = 53479365569
+    number = 5347936556987
     phoneWord = list(phoneWords(number))
     chunk=[list(phoneWord[i: i+20]) for i in range (0,len(phoneWord),20)]
     for shortlist in chunk:
